@@ -62,9 +62,9 @@ docker-compose up --build
 - Banco MySQL:
   - Host: localhost
   - Porta: 3306
-  - Usuário: root
-  - Senha: root
-  - Banco: productdb
+  - Usuário: product_user
+  - Senha: secure_password_product
+  - Banco: product_db
 
 ## Endpoints principais
 
@@ -81,8 +81,6 @@ docker-compose up --build
 - Docker
 - Spring Data JPA
 - Swagger OpenAPI
-
-## ASCII POC HEXAGONAL
 
 ```
 ██████╗  ██████╗  ██████╗       ██╗  ██╗███████╗██╗  ██╗ ██████╗  █████╗ ███╗   ██╗ ██████╗  █████╗ ██╗     
